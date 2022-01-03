@@ -5,8 +5,11 @@ Temporal-changes-of-temperature-mortality-in-relation-to-the-operation-of-a-heat
 ######################################################################################################
 
 # READ DATSET
+
 library(readstata13) 
-setwd("C:/Users/uqtphung/OneDrive - The University of Queensland/UQ/Research/Publications/Victoria Study/Data/mortality") # go to the file directory
+
+setwd("C:/Users/uqtphung/OneDrive - The University of Queensland/UQ/Research/Publications/Victoria Study/Data/mortality") 
+
 data<-read.dta13("vic_mortality.dta") 
 
 # PACKAGE FOR DLNM
